@@ -1,15 +1,11 @@
 "use client";
 
-import TaskList from "@/components/TaskList";
-import DragDrop from "@/components/TestDrag";
-import ToggleModeSwitch from "@/components/toggleModeSwitch";
+import TaskBoard from "@/components/TaskComponents/TaskBoard";
 
 export default function Home() {
   return (
     <div className="">
-      {/* <TaskList /> */}
-      <DragDrop />
-      <DragDrop />
+      <TaskBoard />
     </div>
   );
 }
