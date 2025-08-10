@@ -11,7 +11,7 @@ export default function DropAreaVertical(props: any) {
       } bg-gray-600 w-[40%] h-full z-10 absolute blur-md ${
         props.isLast ? "right-[-5%]" : "left-[-5%]"
       } transition-all`}
-      onDragOver={(e: any) => e.preventDefault()}
+      onDragOver={(e) => e.preventDefault()}
       onDragLeave={() => setShowDrop(false)}
       onDragEnter={() => setShowDrop(true)}
       onDrop={() => {
